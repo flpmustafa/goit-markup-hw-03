@@ -28,43 +28,42 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="page-header container">
-      <nav>
-        <a class="logo" href="./index.html"><span class="logo-header">Web</span>Studio</a>
-        <ul class="menu-nav list">
-          <li>
-            <a class="menu-link current" href="./index.html">Студія</a>
+    <header class="page-header">
+      <div class="header-group">
+        <nav>
+          <a class="logo" href="./index.html"><span class="logo-header">Web</span>Studio</a>
+          <ul class="menu-nav list">
+            <li>
+              <a class="menu-link current" href="./index.html">Студія</a>
+            </li>
+            <li>
+              <a class="menu-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li>
+              <a class="menu-link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-list">
+            <a class="menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a class="menu-link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li>
-            <a class="menu-link" href="#">Контакти</a>
+          <li class="auth-list">
+            <a class="menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li class="auth-list">
-          <a class="menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="auth-list">
-          <a class="menu-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Hero section -->
       <section class="hero-section">
         <div class="container">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button class="btn" type="button">Замовити послугу</button>
         </div>
       </section>
       <!-- Hero end -->
-      <section class="section">
+      <section class="section-features">
         <div class="container">
           <h2 class="features-title visually-hidden">Наші переваги</h2>
           <ul class="features-list list">
@@ -120,35 +119,51 @@
           <ul class="command-list list">
             <li class="command-item">
               <img
+                class="command-photo"
                 src="./images/optim_img/img-1.jpg"
                 alt="Ігор Дем'яненко Product Designer"
                 width="270"
               />
-              <h3 class="command-subtitle">Ігор Дем'яненко</h3>
-              <p class="command-text" lang="en">Product Designer</p>
+              <div class="command-text-box">
+                <h3 class="command-subtitle">Ігор Дем'яненко</h3>
+                <p class="command-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="command-item">
               <img
+                class="command-photo"
                 src="./images/optim_img/img-2.jpg"
                 alt="Ольга Рєпіна Frontend Developer"
                 width="270"
               />
-              <h3 class="command-subtitle">Ольга Рєпіна</h3>
-              <p class="command-text" lang="en">Frontend Developer</p>
-            </li>
-            <li class="command-item">
-              <img src="./images/optim_img/img-3.jpg" alt="Микола Тарасов Marketing" width="270" />
-              <h3 class="command-subtitle">Микола Тарасо</h3>
-              <p class="command-text" lang="en">Marketing</p>
+              <div class="command-text-box">
+                <h3 class="command-subtitle">Ольга Рєпіна</h3>
+                <p class="command-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="command-item">
               <img
+                class="command-photo"
+                src="./images/optim_img/img-3.jpg"
+                alt="Микола Тарасов Marketing"
+                width="270"
+              />
+              <div class="command-text-box">
+                <h3 class="command-subtitle">Микола Тарасов</h3>
+                <p class="command-text" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="command-item">
+              <img
+                class="command-photo"
                 src="./images/optim_img/img-4.jpg"
                 alt="Михайло Єрмаков UI Designer"
                 width="270"
               />
-              <h3 class="command-subtitle">Михайло Єрмаков</h3>
-              <p class="command-text" lang="en">UI Designer</p>
+              <div class="command-text-box">
+                <h3 class="command-subtitle">Михайло Єрмаков</h3>
+                <p class="command-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -157,9 +172,9 @@
     <!-- Footer section -->
     <footer class="page-footer">
       <div class="container">
-        <a class="logo" href="./index.html"
-          ><span class="logo-header">Web</span><span class="logo-footer">Studio</span></a
-        >
+        <a class="logo-page-footer" href="./index.html">
+          <span class="logo-header">Web</span><span class="logo-footer">Studio</span>
+        </a>
         <!-- Contacts -->
         <address>
           <ul class="addr-list list">
