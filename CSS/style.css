@@ -325,6 +325,10 @@ img {
   padding: 94px 0;
 }
 
+.portfolio-text-box {
+  padding: 20px 24px;
+  border: 1px solid var(--portfolio-card-cl);
+}
 .portfolio-title {
   color: var(--secondary-txt-cl);
   font-weight: 700;
